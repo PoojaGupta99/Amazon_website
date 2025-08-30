@@ -76,9 +76,12 @@ export  let products = [];
       });
 
       console.log('loadn products');
-  });
+  }).catch(() => {
+    console.log('unexpected error');
+  })
   return promise;
 }
+loadProductsFetch();
 
 /*
 loadProductsFetch().then(() => {
