@@ -13,7 +13,7 @@ import { loadCart } from "../data/cart.js";
 
    const value =  await  new Promise((resolve) => {
             loadCart(() => {
-                resolve();
+                resolve('value3');
             });
     });
 
