@@ -1,4 +1,4 @@
-import { formatCurrency } from "../scripts/utils/money.js"; // ✅ fix name
+import { formatCurrency } from "../../scripts/utils/money.js"; // ✅ fix name
 
 
 describe('test suite: formatCurrency', () =>{
